@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   background-color: #24252a;
+  scroll-behavior: smooth;
 }
 
 li,
@@ -84,6 +85,43 @@ button:hover {
   background-image: url(./curve-1.svg);
 }
 
+#itext2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #44454d;
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+}
+
+.itext4 a {
+  font-size: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  color: #44454d !important;
+  margin-left: 0 !important;
+  transition: all 0.3s ease 0s;
+}
+
+.itext4 a:hover {
+  color: #edf0f1ea !important;
+}
+
+.itext3 a {
+  font-size: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  color: #44454d !important;
+  padding-left: 3px;
+  transition: all 0.3s ease 0s;
+}
+
+.itext3 a:hover {
+  color: #edf0f1ea !important;
+}
+
 .start {
   background-color: #24252a;
   position: fixed;
@@ -122,8 +160,15 @@ button:hover {
   display: inline-block;
 }
 
-.about {
+.About {
   background-color: #35363d;
   width: 100%;
   height: 500px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  color: #fff;
+  padding-left: 60px;
+  padding-top: 46px;
 }
