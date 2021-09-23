@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: #24252a;
@@ -120,6 +119,13 @@ button:hover {
 
 .itext3 a:hover {
   color: #edf0f1ea !important;
+}
+
+#ab-design-1 {
+  height: 40px;
+  width: 40px;
+  transform: translate3d(-30px, 230px, 0px);
+  opacity: 0.095;
 }
 
 .start {
